@@ -17,23 +17,33 @@
     <!-- CSS -->
   </head>
   <body>
-    <header class="row_header p-4 d-flex justify-content-between">
-      <div class="container">
+    <header class="row_header d-flex justify-content-between">
+      <div class="container p-3">
         <div class="row">
           <div class="col-sm text-uppercase">
             <strong>Bootstrap Freelancer</strong>
           </div>
 
-          <div class="col d-flex justify-content-end hamburger">X</div>
-        </div>
-      </div>
+          <div class="col d-flex justify-content-end hamburger d-md-none">
+            X
+          </div>
+
+          <div class="col d-flex d-sm-none d-md-block">
+            <ul class="list-unstyled d-flex justify-content-end justify-content-around">
+                <li class="d-inline">Portfolio</li>
+                <li class="d-inline">About</li>
+                <li class="d-inline">Contact</li>
+            </ul>
+        
+          </div>
+          
     </header>
 
     <main>
       <!-- Jumbotron -->
       <section class="jumbotron p-5 text-uppercase">
         <div class="container img_jumbo">Avatar</div>
-        <div class="container h_jumbo">
+        <div class="container h_jumbo text_center">
           <h1>Start Bootstrap</h1>
           <div class="container d-flex flex-row">
             <div class="col">-</div>
@@ -48,6 +58,88 @@
         </div>
       </section>
       <!-- Jumbotron -->
+
+      <!-- Portfolio -->
+      <section class="portfolio">
+        <div class="container mb-4">
+          <h2 class="text-uppercase text_center">Portfolio</h2>
+          <div class="container d-flex flex-row text_center">
+            <div class="col">-</div>
+            <div class="col">.</div>
+            <div class="col">-</div>
+            <!-- immagini -->
+          </div>
+          <div class="container d-md-flex
+          ">
+            <div class="col-12 box_img col-md-2">1</div>
+            <div class="col-12 box_img col-md-2">2</div>
+            <div class="col-12 box_img col-md-2">3</div>
+            <div class="col-12 box_img col-md-2">4</div>
+            <div class="col-12 box_img col-md-2" >5</div>
+            <div class="col-12 box_img col-md-2">6</div>
+          </div>
+        </div>
+      </section>
+      <!-- Portfolio -->
+
+      <!-- About Us -->
+      <section class="about">
+        <h2 class="text-uppercase text_center">About</h2>
+        <div class="container d-flex flex-row text_center mb-4">
+          <div class="col">-</div>
+          <div class="col">.</div>
+          <div class="col">-</div>
+        </div>
+        <div class="container d-flex flex-sm-column flex-md-row pb-4">
+          <div class="col mb-4">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae
+            nesciunt, quidem repudiandae, aliquid distinctio repellat nostrum
+            necessitatibus velit ipsam perferendis libero voluptas quam nulla
+            fugiat quasi quaerat hic? Architecto, eum.
+          </div>
+          <div class="col">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae
+            nesciunt, quidem repudiandae, aliquid distinctio repellat nostrum
+            necessitatibus velit ipsam perferendis libero voluptas quam nulla
+            fugiat quasi quaerat hic? Architecto, eum.
+          </div>
+        </div>
+        <div class="col text_center pb-4">X</div>
+      </section>
+      <!-- About Us -->
+
+      <!-- Contact Me -->
+      <section class="contact_me mt-4 mb-4">
+        <h2 class="text-uppercase text_center">Contact Me</h2>
+        <div class="container d-flex flex-row text_center ">
+          <div class="col">-</div>
+          <div class="col">.</div>
+          <div class="col">-</div>
+        </div>
+        <!-- input domani -->
+      </section>
+
+          <!-- Contact Me -->
+          <!-- Info -->
+          <section class="info  d-md-flex p-3">
+            <div class="container d-flex flex-column text_center">
+                <h5 class="text-uppercaser">Location</h5>
+                <p>2215 John Drive Clark, MO 54243</p>
+            </div>
+            <div class="container d-flex flex-column text_center">
+                <h5 class="text-uppercase ">Around the web</h5>
+                <p>123</p>
+            </div>
+            <div class="container d-flex flex-column text_center">
+                <h5 class="text-uppercase ">About Freelancer</h5>
+                <p>Freelance is a free to use</p>
+            </div>
+
+          </section>
+          <!-- Info -->
+
+
+        
     </main>
   </body>
 </html>
