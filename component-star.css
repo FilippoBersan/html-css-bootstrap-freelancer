@@ -22,3 +22,8 @@ con bootstrap d-flex
   margin-left: 1.25rem;
   border-radius: 0.625rem;
 }
+
+#col_star_portfolio::before,
+#col_star_portfolio::after {
+  background-color: black;
+}
