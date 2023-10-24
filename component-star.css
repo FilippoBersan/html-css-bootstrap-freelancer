@@ -1,0 +1,24 @@
+/* 
+******
+con bootstrap d-flex
+ */
+
+.col_star::before {
+  content: ' ';
+
+  background-color: aliceblue;
+  width: 30%;
+  height: 0.1875rem;
+  margin-right: 1.25rem;
+  border-radius: 0.625rem;
+}
+
+.col_star::after {
+  content: ' ';
+
+  background-color: aliceblue;
+  width: 30%;
+  height: 0.1875rem;
+  margin-left: 1.25rem;
+  border-radius: 0.625rem;
+}
